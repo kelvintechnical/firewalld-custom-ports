@@ -1,11 +1,11 @@
 # Lab: Opening Custom Ports — When There Is No `firewall-cmd` Service Name
 
-**Series:** linux-ops-mastery — RHCSA Firewall
-**Subjects covered:** `firewall-cmd --add-port`, `--remove-port`, port syntax `PORT/PROTO`, `--permanent`, `firewall-cmd --reload`, verifying with `--list-ports`, rich vs simple rules preview
-**Career arcs covered:** RHCSA (non-standard daemon ports), RHCE (parameterized playbooks), SRE (vendor apps on random high ports), DevOps (Kubernetes NodePort ranges), AI/MLOps (Jupyter, Ray, custom training APIs)
-**Prerequisite:** Lab **firewalld-add-services** (persistence/reload rhythm)
-**Time Estimate:** 30 to 45 minutes
-**Difficulty arc:** Task 1 baseline ports · 2–3 runtime add/remove custom · 4 permanent + reload · 5 edge: bad syntax · 6 capstone + cleanup
+- **Series:** linux-ops-mastery — RHCSA Firewall
+- **Subjects covered:** `firewall-cmd --add-port`, `--remove-port`, port syntax `PORT/PROTO`, `--permanent`, `firewall-cmd --reload`, verifying with `--list-ports`, rich vs simple rules preview
+- **Career arcs covered:** RHCSA (non-standard daemon ports), RHCE (parameterized playbooks), SRE (vendor apps on random high ports), DevOps (Kubernetes NodePort ranges), AI/MLOps (Jupyter, Ray, custom training APIs)
+- **Prerequisite:** Lab **firewalld-add-services** (persistence/reload rhythm)
+- **Time Estimate:** 30 to 45 minutes
+- **Difficulty arc:** Task 1 baseline ports · 2–3 runtime add/remove custom · 4 permanent + reload · 5 edge: bad syntax · 6 capstone + cleanup
 
 ---
 
